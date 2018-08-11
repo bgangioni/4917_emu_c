@@ -40,7 +40,7 @@ and they are numbered 0 to 15.
     6 = Decrement R1
     7 = Ring Bell
 
-### 2-byte (second byte is called <data>) :
+### 2-byte (second byte is called \<data\>) :
     8 = Print <data> as output
     9 = Load value at address <data> into R1
     11 = Store R0 into address <data>
