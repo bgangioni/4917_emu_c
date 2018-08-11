@@ -1,4 +1,4 @@
-# Readme file for 4917_emu_c
+# 4917_emu_c
 *by Bruno Angioni*
 *started on: August 11, 2018*
 
@@ -25,6 +25,8 @@ It must be a text file with the following format:
 ...where XX represents values in the range 00, 01, 02 .. 13, 14, 15
 
 ...which in turn represent either instructions or data.
+
+Invalid values (i.e. not within the specific range) will be initialized to 00.
 
 These space separated values are considered to be the memory, and they are numbered 0 to 15.
 
