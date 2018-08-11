@@ -17,24 +17,20 @@ but I intend to create a usable emulator in C, as a personal project.
 
 It must be a text file with the following format:
 
-XX XX XX XX
+    XX XX XX XX
+    XX XX XX XX
+    XX XX XX XX
+    XX XX XX XX
 
-XX XX XX XX
-
-XX XX XX XX
-
-XX XX XX XX
-
-...where XX represents 00, 01, 02 .. 13, 14, 15
+...where XX represents values in the range 00, 01, 02 .. 13, 14, 15
 
 ...which in turn represent either instructions or data.
 
 These space separated values are considered to be the memory, and they are numbered 0 to 15.
 
 ## Set of Instructions
-8 1-byte instructions
-
-8 2-byte instructions
+* 8 1-byte instructions
+* 8 2-byte instructions
 
 ### 1-byte:
     0 = Halt
