@@ -10,13 +10,10 @@ to teach Assembly basics. I don't know wether such processor exists
 but I intend to create a usable emulator in C, as a personal project.
 
 ## Specifications
-4 bit microprocessor
-
-16-byte memory for code and values
-
-2 1-byte registers (R0 and R1)
-
-Instructions will be read from the file passed as argument.
+* 4 bit microprocessor
+* 16-byte memory for code and values
+* 2 1-byte registers (R0 and R1)
+* Instructions will be read from a file passed as argument.
 
 It must be a text file with the following format:
 
