@@ -1,9 +1,6 @@
-# 4917_emu_c
-#############################
-README FILE FOR 4917_EMU_C
-by Bruno Angioni
-started on: August 11, 2018
-#############################
+#Readme file for 4917_emu_c
+*by Bruno Angioni*
+*started on: August 11, 2018*
 
 In 2008 UNSW uploaded a series of recordings from
 their Computer Science class CS1, taught by Richard Buckland
@@ -12,7 +9,7 @@ A brief part of the course makes use of a microprocessor emulator
 to teach Assembly basics. I don't know wether such processor exists
 but I intend to create a usable emulator in C, as a personal project.
 
-SPECIFICATIONS
+##Specifications
 4 bit microprocessor
 16-byte memory for code and values
 2 1-byte registers (R0 and R1)
@@ -29,11 +26,11 @@ XX XX XX XX
 These space separated values are considered to be the memory,
 and they are numbered 0 to 15.
 
-SET OF INSTRUCTIONS
+##Set of Instructions
 8 1-byte instructions
 8 2-byte instructions
 
-1-byte:
+###1-byte:
     0 = Halt
     1 = Add (R0 = R0 + R1)
     2 = Substract (R0 = R0 - R1)
@@ -43,7 +40,7 @@ SET OF INSTRUCTIONS
     6 = Decrement R1
     7 = Ring Bell
 
-2-byte (second byte is called <data>) :
+###2-byte (second byte is called <data>) :
     8 = Print <data> as output
     9 = Load value at address <data> into R1
     11 = Store R0 into address <data>
